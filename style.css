@@ -1,6 +1,6 @@
 * {
 	box-sizing: border-box;
-	font-family: Calibri, sans-serif;
+	font-family: "Comic Sans MS", sans-serif;
 }
 
 body {
@@ -15,13 +15,17 @@ body {
 
 /* Rich code below */
 .rich {
-	display: flex;
-	flex-direction: row;
-	width: 50%;
+	font-family: Arial sans-serif;
+	color: red;
+	margin: 25%;
+	padding-left: 20px;
 }
 .rich img {
-	width: 30%
+	justify-content: center;
+	max-width: 520px;
+	max-height: 520px;
 }
+
 
 /* Ollie code below */
 
