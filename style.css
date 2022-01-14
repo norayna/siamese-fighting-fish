@@ -1,6 +1,6 @@
 * {
 	box-sizing: border-box;
-	font-family: Calibri, sans-serif;
+	font-family: "Comic Sans MS", sans-serif;
 }
 
 body {
@@ -12,8 +12,41 @@ body {
 /* Charlotte code below */
 
 /* Liam code below */
+.liam h1 {
+	color: #f57905;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.liam img {
+    animation: blink 1s;
+    animation-iteration-count: infinite;
+}
 
 /* Rich code below */
+.rich {
+	font-family: Arial sans-serif;
+	color: red;
+	margin: 25%;
+	padding-left: 20px;
+}
+.rich img {
+	justify-content: center;
+	max-width: 520px;
+	max-height: 520px;
+}
+
 
 /* Ollie code below */
 .ollie {
