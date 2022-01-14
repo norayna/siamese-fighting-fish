@@ -19,4 +19,36 @@ body {
 
 /* Max code below */
 
+.max_h1 {
+    font-family: 'Island Moments', cursive;
+    color: aliceblue;
+}
+
+.max_p, figcaption {
+    font-family: 'Space Mono', monospace;
+    color: aliceblue;
+}
+
+blockquote {
+    margin: 0;
+}
+
+blockquote p {
+    padding: 15px;
+    background: #eee;
+    border-radius: 5px;
+}
+
+blockquote p::before {
+    content: '\201C';
+}
+
+blockquote p::after {
+    content: '\201D';
+}
+
+.maxs_drainpipe {
+    display:block;
+	max-width: 25%;
+}
 /* Stephen code below */
