@@ -16,6 +16,31 @@ body {
 /* Rich code below */
 
 /* Ollie code below */
+.ollie {
+	display: flex;
+	flex-direction: column;
+}
+
+.tree-card {
+	height: 400px;
+	width: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content:;
+	background-color: rgb(69, 69, 122, 75%);
+	padding: 20px;
+	border-radius: 20px;
+}
+.ollie img{
+	position: relative;
+	border-radius: 20px;
+}
+
+.img-description {
+	position: absolute;
+	bottom: 20px;
+	left:20px;
+}
 
 /* Max code below */
 
