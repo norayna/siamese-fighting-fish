@@ -49,6 +49,13 @@ body {
 .liam img {
     animation: blink 1s;
     animation-iteration-count: infinite;
+	width: 750px;
+	height: 750px;
+}
+
+.liam {
+	width: 50%;
+	margin: auto;
 }
 
 /* Rich code below */
