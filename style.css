@@ -4,7 +4,7 @@
 }
 
 body {
-	background-color: #053054;
+	background-color: #b0ff94;
 	margin: 0;
 	padding: 0;
 }
@@ -21,14 +21,18 @@ body {
 
 .max_h1 {
     font-family: 'Island Moments', cursive;
-    color: aliceblue;
+    color: darkblue;
+    font-size: 50px;
 }
 
 .max_p, figcaption {
     font-family: 'Space Mono', monospace;
-    color: aliceblue;
+    color: darkblue;
 }
 
+.max {
+    margin: 20px 20px;
+}
 blockquote {
     margin: 0;
 }
@@ -47,8 +51,70 @@ blockquote p::after {
     content: '\201D';
 }
 
+figcaption {
+    font-style: italic;
+}
+
 .maxs_drainpipe {
     display:block;
 	max-width: 25%;
+    border-radius: 10px;
+    margin: 0 20px;
+}
+
+.html_css_logos {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+}
+
+.html-right-inner {
+    left: 148px;
+    top: 25px;
+}
+
+.html-five-outline {
+    left: 55px;
+    top: 62px;
+}
+
+.html-five-greyed-top{
+    left: 55px;
+    top: 62px;
+}
+
+.html-five-greyed-bottom{
+    left: 67px;
+    top: 193px;
+}
+
+.css-shield-base {
+    left: 404px;
+}
+
+.css-right-inner {
+    left: 553px;
+    top: 25px;
+}
+
+.css-three-outline{
+    left: 460px;
+    top: 62px;
+}
+
+.css-three-greyed-top {
+    left:460px;
+    top: 62px;
+}
+
+.css-three-greyed-mid {
+    left: 509px;
+    top: 137px;
+}
+
+.css-three-greyed-bottom {
+    left: 472px;
+    top: 193px;
 }
 /* Stephen code below */
