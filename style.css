@@ -10,6 +10,23 @@ body {
 }
 
 /* Charlotte code below */
+.charlotte {
+	margin: auto;
+	width: 50%;
+}
+
+.charlotte h2, .charlotte h3, .charlotte p {
+	color: #556cf2;
+	font-family: 'Rubik', sans-serif;
+}
+
+.charlotte img {
+	width: 75%;
+	height: auto;
+	border-radius: 10px;
+	border: 5px;
+	border-color: #556cf2 ;
+}
 
 /* Liam code below */
 .liam h1 {
